@@ -1,9 +1,9 @@
 #ifndef OTA_HANDLER_H
 #define OTA_HANDLER_H
 
-typedef void (*display_callback_t)(const char* text);
+#include <ArduinoOTA.h>
 
-void ota_setup(display_callback_t display_func);
-void ota_handle(void);
+void setupOTA(void (*displayCallback)(const char*));
+void handleOTA();
 
 #endif

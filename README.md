@@ -1,6 +1,6 @@
 # ESP32 OTA Handler
 
-simple over-the-air update module for ESP32 projects on local networks.
+Simple over-the-air update module for ESP32 projects, works only in local networks.
 
 ## Usage
 
@@ -12,3 +12,4 @@ pio run
 pio run -t upload
 
 # Later uploads use OTA wirelessly
+
